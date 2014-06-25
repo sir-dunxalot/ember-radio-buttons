@@ -12,7 +12,7 @@ There are three files needed:
 Usage
 ------
 
-In your view:
+In your controller (or view):
 
 ```
 App.WhateverController = Em.View.extend({
@@ -49,7 +49,7 @@ This will add the class `buttons-radios` to the radio buttons component element 
 
 You can easily add your icon classes to each radio button if you are styling them to look like [buttons with icons](http://1.bp.blogspot.com/-Ahtwu79kQGo/UWujNAOZCMI/AAAAAAAAZPI/fCAwZcxT5uw/s1600/Amazing+Social+Media+Buttons+With+CSS.JPG)
 
-In your view:
+In your controller (or view):
 
 ```
 App.WhateverController = Em.View.extend({
@@ -64,6 +64,6 @@ App.WhateverController = Em.View.extend({
 });
 ```
 
-### Cut all the crap
+### Want to Cut all the crap?
 
 Obviously, this component has been tailored to my needs and CSS. The code is very easy to work with if you want to strip all the extra stuff and just use the basic radio buttons. Just remove the classNameBinding from `App.RadioButtonsComponent` and remove anything you don't need from the `radio-button.hbs` template, which contains most of the customization.
