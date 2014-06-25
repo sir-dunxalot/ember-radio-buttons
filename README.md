@@ -64,6 +64,6 @@ App.WhateverController = Em.View.extend({
 });
 ```
 
-### Want to Cut all the crap?
+### Want to Cut all the Crap?
 
 Obviously, this component has been tailored to my needs and CSS. The code is very easy to work with if you want to strip all the extra stuff and just use the basic radio buttons. Just remove the classNameBinding from `App.RadioButtonsComponent` and remove anything you don't need from the `radio-button.hbs` template, which contains most of the customization.
