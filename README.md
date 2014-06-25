@@ -43,7 +43,7 @@ Often, radio buttons do not look like raido buttons at all but, in fact, look li
 {{radio-buttons content=dataRanges value=dateOffset style='true'}}
 ```
 
-This will add the class buttons-radios to the radio buttons component element so you can target the buttons and style them [like this](//img.viralpatel.net/2013/05/radio-button-css-style.png). The CSS is, of course, left up to you. `style` is just a hook.
+This will add the class `buttons-radios` to the radio buttons component element and `button-tog` to span surrounding the button label so you can target the buttons and style them [like this](//img.viralpatel.net/2013/05/radio-button-css-style.png). The CSS is, of course, left up to you. `style` is just a hook.
 
 ### With Icons
 
@@ -63,3 +63,7 @@ App.WhateverController = Em.View.extend({
   
 });
 ```
+
+### Cut all the crap
+
+Obviously, this component has been tailored to my needs and CSS. The code is very easy to work with if you want to strip all the extra stuff and just use the basic radio buttons. Just remove the classNameBinding from `App.RadioButtonsComponent` and remove anything you don't need from the `radio-button.hbs` template, which contains most of the customization.
