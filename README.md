@@ -57,8 +57,8 @@ App.WhateverController = Em.View.extend({
   dateRanges: [
     {label: 'D', value: 'days', icon: 'icon-day'},
     {label: 'W', value: 'weeks', icon: 'icon-week'},
-    {label: 'M', value: 'months',  icon: 'icon-monthly'},
-    {label: 'All', value: 'all',icon: 'icon-calendar'}, // Default
+    {label: 'M', value: 'months', icon: 'icon-monthly'},
+    {label: 'All', value: 'all', icon: 'icon-calendar'}, // Default
   ],
   
 });
