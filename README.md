@@ -47,7 +47,7 @@ This will add the class buttons-radios to the radio buttons component element so
 
 ### With Icons
 
-You can easily add icon classes to each radio button if you are styling them to look like [buttons with icons](http://1.bp.blogspot.com/-Ahtwu79kQGo/UWujNAOZCMI/AAAAAAAAZPI/fCAwZcxT5uw/s1600/Amazing+Social+Media+Buttons+With+CSS.JPG)
+You can easily add your icon classes to each radio button if you are styling them to look like [buttons with icons](http://1.bp.blogspot.com/-Ahtwu79kQGo/UWujNAOZCMI/AAAAAAAAZPI/fCAwZcxT5uw/s1600/Amazing+Social+Media+Buttons+With+CSS.JPG)
 
 In your view:
 
