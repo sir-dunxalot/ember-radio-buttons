@@ -1,0 +1,18 @@
+{{#each content}}
+  <label class="radio_wrapper">
+    {{radio-button value=this.value selection=view.value}}
+    <span {{bind-attr class="view.style:button-tog:label"}}>
+
+      {{#if this.icon}}
+        <i {{bind-attr class='this.icon'}}></i>
+      {{/if}}
+
+      {{#if this.label}}
+        <span class="text">
+          {{capitalize this.label}}
+        </span>
+      {{/if}}
+
+    </span>
+  </label>
+{{/each}}
